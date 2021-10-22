@@ -11,6 +11,10 @@
 		7D41F5B42722F2AE00DC28E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41F5B32722F2AE00DC28E5 /* ContentView.swift */; };
 		7D41F5B62722F2AF00DC28E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D41F5B52722F2AF00DC28E5 /* Assets.xcassets */; };
 		7D41F5B92722F2AF00DC28E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D41F5B82722F2AF00DC28E5 /* Preview Assets.xcassets */; };
+		7D41F5C02722F3A700DC28E5 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D41F5BF2722F3A700DC28E5 /* song1.mp3 */; };
+		7D41F5C22722F3AD00DC28E5 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D41F5C12722F3AD00DC28E5 /* song2.mp3 */; };
+		7D41F5C42722F3B500DC28E5 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D41F5C32722F3B500DC28E5 /* song3.mp3 */; };
+		7D41F5C62722F7E600DC28E5 /* shimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41F5C52722F7E600DC28E5 /* shimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		7D41F5B32722F2AE00DC28E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D41F5B52722F2AF00DC28E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D41F5B82722F2AF00DC28E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D41F5BF2722F3A700DC28E5 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		7D41F5C12722F3AD00DC28E5 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		7D41F5C32722F3B500DC28E5 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		7D41F5C52722F7E600DC28E5 /* shimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				7D41F5B12722F2AE00DC28E5 /* __APPSApp.swift */,
 				7D41F5B32722F2AE00DC28E5 /* ContentView.swift */,
+				7D41F5C52722F7E600DC28E5 /* shimer.swift */,
+				7D41F5BF2722F3A700DC28E5 /* song1.mp3 */,
+				7D41F5C12722F3AD00DC28E5 /* song2.mp3 */,
+				7D41F5C32722F3B500DC28E5 /* song3.mp3 */,
 				7D41F5B52722F2AF00DC28E5 /* Assets.xcassets */,
 				7D41F5B72722F2AF00DC28E5 /* Preview Content */,
 			);
@@ -125,7 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D41F5C22722F3AD00DC28E5 /* song2.mp3 in Resources */,
 				7D41F5B92722F2AF00DC28E5 /* Preview Assets.xcassets in Resources */,
+				7D41F5C42722F3B500DC28E5 /* song3.mp3 in Resources */,
+				7D41F5C02722F3A700DC28E5 /* song1.mp3 in Resources */,
 				7D41F5B62722F2AF00DC28E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D41F5B42722F2AE00DC28E5 /* ContentView.swift in Sources */,
+				7D41F5C62722F7E600DC28E5 /* shimer.swift in Sources */,
 				7D41F5B22722F2AE00DC28E5 /* __APPSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
